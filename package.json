@@ -1,0 +1,26 @@
+{
+  "name": "wc-node-server",
+  "version": "0.0.0",
+  "description": "Example using Node, Express, and Pug",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/klcoan/wc-node-server.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/klcoan/wc-node-server/issues"
+  },
+  "devDependencies": {
+    "nodemon": "~1.11.0"
+  },
+  "dependencies": {
+    "express": "~4.15.3",
+    "pug": "~2.0.0-rc.2"
+  }
+}
