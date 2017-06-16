@@ -29,7 +29,10 @@ app.get('/contact', function(req, res) {
 })
 
 // Tell the server how to start
-// Our server URL is localhost:3000
-app.listen(3000, function() {
-    console.log('server is running on PORT 3000')
+// Our Port will now use an environment variable if it's on
+// heroku...otherwise, use 3000
+const port = process.env.PORT || 3000
+app.listen(port, function() {
+    console.log(`server is running on PORT ${port}`)
 })
+
