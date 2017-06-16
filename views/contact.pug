@@ -2,5 +2,8 @@ extends template
 
 block content
     h1 Contact Page
-    p  this is my contact page
+    form(method="POST")
+        input(type="text" name="name" placeholder="Your Name")
+        input(type="email" name="Email" placeholder="you@whatever.com")
+        input(type="submit" value="Submit Form")
     

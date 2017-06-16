@@ -5,3 +5,10 @@ body {
 header a {
     margin-right: 1em;
 }
+
+.back {
+    display: block;
+    margin: 1em 0;
+    text-decoration: none;
+    font-size: .8em;
+}

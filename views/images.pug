@@ -1,0 +1,10 @@
+extends template
+
+include mixins/_image
+
+block content
+    h1 My Images
+        .images
+            +image(300)
+            +image(222)
+            +image(555)
